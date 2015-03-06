@@ -14,6 +14,12 @@ chmod +x speedtest_cli.py
 # fetch server list
 ./speedtest_cli.py --list | tee server.list
 
+# loop with timer #
+
 # start test #
+echo '' >> log
+date >> log
 # sydney
-./speedtest_cli.py --share --server $(grep -i sydney server.list | head -n 1 | awk -F ')' '{print $1}')
+./speedtest_cli.py --share --server $(grep -i sydney server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+# shenzhen
+./speedtest_cli.py --share --server $(grep -i shenzhen server.list | head -n 1 | awk -F ')' '{print $1}') >> log
