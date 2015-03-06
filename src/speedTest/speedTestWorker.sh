@@ -1,41 +1,78 @@
-#!/bin/bash
+#!/bin/sh
 
-# make sure python is installed
-sudo apt-get update -y
-sudo apt-get install -y python
-sudo apt-get install -y python2
-sudo apt-get install -y python3
-sudo apt-get install -y wget
-
-# prepare speedtest_cli.py
-wget -O speedtest-cli.py https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py
-chmod +x speedtest_cli.py
+# loop by timer #
 
 # fetch server list
 ./speedtest_cli.py --list | tee server.list
 
-# loop with timer #
-
 # start test #
-echo ''
 echo '' >> log
 echo ''
 echo '' >> log
-# sydney
+
+# Sydney
 echo ''
 echo '' >> log
 date
 date >> log
-echo sydney
+echo Sydney
 echo sydney >> log
-./speedtest_cli.py --share --server $(grep -i sydney server.list | head -n 1 | awk -F ')' '{print $1}') >> log
-# shenzhen
+./speedtest_cli.py --share --server $(grep -i Sydney server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+# Shenzhen
 echo ''
 echo '' >> log
 date
 date >> log
-echo shenzhen
-echo shenzhen >> log
-./speedtest_cli.py --share --server $(grep -i shenzhen server.list | head -n 1 | awk -F ')' '{print $1}') >> log
-# shanghai
-./speedtest_cli.py --share --server $(grep -i shanghai server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+echo Shenzhen
+echo Shenzhen >> log
+./speedtest_cli.py --share --server $(grep -i Shenzhen server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+# Hong Kong
+echo ''
+echo '' >> log
+date
+date >> log
+echo Hong Kong
+echo Hong Kong >> log
+./speedtest_cli.py --share --server $(grep -i 'Hong Kong' server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+# Taipei
+echo ''
+echo '' >> log
+date
+date >> log
+echo Taipei
+echo Taipei >> log
+./speedtest_cli.py --share --server $(grep -i Taipei server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+# United Kingdom
+echo ''
+echo '' >> log
+date
+date >> log
+echo United Kingdom
+echo United Kingdom >> log
+./speedtest_cli.py --share --server $(grep -i 'United Kingdom' server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+# Canada
+echo ''
+echo '' >> log
+date
+date >> log
+echo Canada
+echo Canada >> log
+./speedtest_cli.py --share --server $(grep -i Canada server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+# New York
+echo ''
+echo '' >> log
+date
+date >> log
+echo New York
+echo New York >> log
+./speedtest_cli.py --share --server $(grep -i 'New York' server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+
+echo ---- waiting next time ----
+
+echo ---- end test ----
