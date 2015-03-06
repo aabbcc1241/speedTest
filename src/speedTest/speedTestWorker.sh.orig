@@ -37,5 +37,13 @@ date >> log
 echo shenzhen
 echo shenzhen >> log
 ./speedtest_cli.py --share --server $(grep -i shenzhen server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+<<<<<<< HEAD
+
+
+echo waiting next time
+
+echo end
+=======
 # shanghai
 ./speedtest_cli.py --share --server $(grep -i shanghai server.list | head -n 1 | awk -F ')' '{print $1}') >> log
+>>>>>>> 5e31bdbf657787e89826dafbaa4ef41260990ccb
