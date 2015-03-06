@@ -10,4 +10,4 @@ sudo apt-get install -y wget
 # wget -O speedtest-cli.py https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py
 chmod +x *
 
-./setup.sh
+./speedTestTimer.sh
