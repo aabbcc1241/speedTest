@@ -1,11 +1,17 @@
-speed test (python)
+# speed test bot
+#### automatically log network speed every 30 minutes
+
+python utils script fork from
+https://github.com/sivel/speedtest-cli
+
 test ping, download and upload speed against speedtest.net 's server over the world
 
-v hk
-v china (Shanghai)
-v china (Shenzhen)
-v taipei
-v uk
-v australia (sydney)
-v canada
-v new york
+included servers (district):
+- [x] hk
+- [x] china (Shanghai)
+- [x] china (Shenzhen)
+- [x] taipei
+- [x] uk
+- [x] australia (sydney)
+- [x] canada
+- [x] new york
