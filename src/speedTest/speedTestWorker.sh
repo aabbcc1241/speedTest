@@ -3,6 +3,8 @@
 # loop by timer #
 
 # fetch server list
+echo ''
+echo fetching server list...
 ./speedtest_cli.py --list > server.list
 
 # start test #

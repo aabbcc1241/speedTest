@@ -15,7 +15,7 @@ for i in `seq 1 1048576`;
                     echo ---- end test ----
                 else
                     echo ---- waiting next test ----
-                    echo counting 1 hour...
+                    echo counting 30 minutes...
                     sleep 1800
                 fi
         done
