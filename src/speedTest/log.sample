@@ -127,6 +127,7 @@ Hosted by Digital Pacific (Sydney) [7372.57 km]: 14.861 ms
 Testing download speed................
 
 
+<<<<<<< HEAD
 Sat Mar  7 02:15:42 UTC 2015
 ==Sydney==
 Retrieving speedtest.net configuration...
@@ -300,10 +301,16 @@ Share results: http://www.speedtest.net/result/4194912072.png
 
 
 Sat Mar  7 02:26:57 UTC 2015
+=======
+
+
+Sat Mar  7 21:39:35 HKT 2015
+>>>>>>> 759f0e09bc90ae0dfcf240273d2eacc931e95ced
 ==Sydney==
 Retrieving speedtest.net configuration...
 Retrieving speedtest.net server list...
 Testing from Hong Kong Broadband Network Ltd (59.148.83.178)...
+<<<<<<< HEAD
 Hosted by Telstra (Sydney) [7372.57 km]: 14.623 ms
 Testing download speed........................................
 Download: 38.94 Mbit/s
@@ -312,10 +319,21 @@ Upload: 14.98 Mbit/s
 Share results: http://www.speedtest.net/result/4194913233.png
 
 Sat Mar  7 02:27:48 UTC 2015
+=======
+Hosted by Internode (Sydney) [7372.57 km]: 3500.476 ms
+Testing download speed........................................
+Download: 47.83 Mbit/s
+Testing upload speed..................................................
+Upload: 15.58 Mbit/s
+Share results: https://www.speedtest.net/result/4195884762.png
+
+Sat Mar  7 21:40:27 HKT 2015
+>>>>>>> 759f0e09bc90ae0dfcf240273d2eacc931e95ced
 ==Shenzhen==
 Retrieving speedtest.net configuration...
 Retrieving speedtest.net server list...
 Testing from Hong Kong Broadband Network Ltd (59.148.83.178)...
+<<<<<<< HEAD
 Hosted by ShenZhen Telecom (Shenzhen) [30.10 km]: 12.477 ms
 Testing download speed........................................
 Download: 44.23 Mbit/s
@@ -324,10 +342,21 @@ Upload: 10.74 Mbit/s
 Share results: http://www.speedtest.net/result/4194914010.png
 
 Sat Mar  7 02:28:26 UTC 2015
+=======
+Hosted by CMCC-SZ (Shenzhen) [27.85 km]: 18.762 ms
+Testing download speed........................................
+Download: 1.12 Mbit/s
+Testing upload speed..................................................
+Upload: 1.07 Mbit/s
+Share results: https://www.speedtest.net/result/4195886213.png
+
+Sat Mar  7 21:41:11 HKT 2015
+>>>>>>> 759f0e09bc90ae0dfcf240273d2eacc931e95ced
 ==Hong Kong==
 Retrieving speedtest.net configuration...
 Retrieving speedtest.net server list...
 Testing from Hong Kong Broadband Network Ltd (59.148.83.178)...
+<<<<<<< HEAD
 Hosted by FPT Telecom (Hong Kong) [1.06 km]: 12.875 ms
 Testing download speed........................................
 Download: 45.03 Mbit/s
@@ -336,10 +365,21 @@ Upload: 18.98 Mbit/s
 Share results: http://www.speedtest.net/result/4194914995.png
 
 Sat Mar  7 02:29:12 UTC 2015
+=======
+Hosted by STC (Hong Kong) [1.06 km]: 5.621 ms
+Testing download speed........................................
+Download: 69.51 Mbit/s
+Testing upload speed..................................................
+Upload: 44.54 Mbit/s
+Share results: https://www.speedtest.net/result/4195887001.png
+
+Sat Mar  7 21:41:35 HKT 2015
+>>>>>>> 759f0e09bc90ae0dfcf240273d2eacc931e95ced
 ==Taipei==
 Retrieving speedtest.net configuration...
 Retrieving speedtest.net server list...
 Testing from Hong Kong Broadband Network Ltd (59.148.83.178)...
+<<<<<<< HEAD
 Hosted by Chief Telecom (New Taipei) [802.48 km]: 13.987 ms
 Testing download speed........................................
 Download: 72.46 Mbit/s
@@ -372,10 +412,17 @@ Upload: 3.37 Mbit/s
 Share results: http://www.speedtest.net/result/4194917776.png
 
 Sat Mar  7 02:31:22 UTC 2015
+=======
+Hosted by Taiwan Fixed Network (New Taipei) [802.48 km]: 2528.919 ms
+Testing download speed.......................
+
+Sat Mar  7 21:43:46 HKT 2015
+>>>>>>> 759f0e09bc90ae0dfcf240273d2eacc931e95ced
 ==New York==
 Retrieving speedtest.net configuration...
 Retrieving speedtest.net server list...
 Testing from Hong Kong Broadband Network Ltd (59.148.83.178)...
+<<<<<<< HEAD
 Hosted by Atlantic Metro (New York City, NY) [12959.46 km]: 12.954 ms
 Testing download speed........................................
 Download: 11.36 Mbit/s
@@ -404,3 +451,7 @@ Retrieving speedtest.net server list...
 Testing from Hong Kong Broadband Network Ltd (59.148.83.178)...
 Hosted by ShenZhen Telecom (Shenzhen) [30.10 km]: 17.961 ms
 Testing download speed.......................
+=======
+Hosted by Inerail (New York City, NY) [12959.46 km]: 2859.811 ms
+Testing download speed........
+>>>>>>> 759f0e09bc90ae0dfcf240273d2eacc931e95ced
