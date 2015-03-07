@@ -1,4 +1,5 @@
 # speed test bot
+https://github.com/aabbcc1241/speedTest
 #### automatically log network speed every 30 minutes
 
 python utils script fork from
