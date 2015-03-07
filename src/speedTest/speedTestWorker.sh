@@ -3,7 +3,7 @@
 # loop by timer #
 
 # fetch server list
-./speedtest_cli.py --list | tee server.list
+./speedtest_cli.py --list > server.list
 
 # start test #
 echo '' >> log
@@ -72,7 +72,3 @@ date >> log
 echo ==New York==
 echo ==New York== >> log
 ./speedtest_cli.py --share --server $(grep -i 'New York' server.list | head -n 1 | awk -F ')' '{print $1}') >> log
-
-echo ---- waiting next time ----
-
-echo ---- end test ----
